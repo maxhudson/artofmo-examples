@@ -6,7 +6,7 @@ You don't need to use the command line/terminal to do this.
 
 These instructions are not yet verified on Windows, but should work.
 
-They're also not super thorough, but should be enough. They will develop
+They're also not super thorough, but should be enough. Please report any important missing pieces.
 
 1. Download this repository by clicking [here](https://github.com/maxhudson/artofmo-examples/archive/master.zip)
 1. Extract the downloaded zip file
