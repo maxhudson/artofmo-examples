@@ -30,4 +30,13 @@ They're also not super thorough, but should be enough. Please report any importa
 
 `examples-by-version/v0-0-5/main.html?work=`2018-09-29-plant-spirals
 
-##### You can find which versions and works are available by browsing the exracted zip files.
+##### Table of contents
+- v0.0.5
+  - spirals
+- v0.0.6
+  - rectangle inputs
+  - rock plant towers
+- v0.0.7
+  - liquid fungus
+  - mountains
+  - mountain-lines
