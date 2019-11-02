@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"></script>
+    <script src="../../../artofmo/dist/index.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="module">
+      let searchParams = new URLSearchParams(window.location.search);
+      let work = searchParams.get('work');
+
+      import x from './works/2019-10-16.js';
+
+        // var {run} = module.default;
+      var {run} = x;
+        run();
+    </script>
+  </head>
+  <body>
+    <div id="mo-container">
+
+    </div>
+  </body>
+</html>
