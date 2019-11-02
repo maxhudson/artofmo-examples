@@ -26,7 +26,7 @@ var run = () => {
     }).then(({sum, product, min, max, rand, randInt, randPoint, render, canvasView, size, images}) => { //eslint-disable-line
       render = _.throttle(render, 20);
 
-      _.times(10, p => {
+      _.times(20, p => {
         var dots = [];
 
         _.times(10, (i) => {
