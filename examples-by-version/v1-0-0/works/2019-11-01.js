@@ -1,10 +1,10 @@
 var run = () => {
 
-  mo.colors.fetch({samples: [[100, 100, 100]], count: 6}).then(colors => {
+  mo.colors.fetch({samples: [[255, 203, 71]], count: 6}).then(colors => {
 
     //["rgb(101, 102, 100)","rgb(177, 200, 182)","rgb(245, 225, 185)","rgb(202, 162, 98)","rgb(104, 89, 65)"]
     //["rgb(49, 50, 48)","rgb(122, 163, 107)","rgb(204, 194, 143)","rgb(193, 173, 108)","rgb(172, 54, 43)"]
-    var customColors = ["rgb(101, 101, 100)","rgb(160, 167, 141)","rgb(244, 221, 204)","rgb(206, 191, 89)","rgb(175, 122, 99)"];//.map(([r, g, b]) => `rgb(${r}, ${g}, ${b})`);
+    var customColors;// = ["rgb(101, 101, 100)","rgb(160, 167, 141)","rgb(244, 221, 204)","rgb(206, 191, 89)","rgb(175, 122, 99)"];//.map(([r, g, b]) => `rgb(${r}, ${g}, ${b})`);
     var colors = customColors || colors;
     // var originalColors = _.clone(colors); //eslint-disable-line;
 
